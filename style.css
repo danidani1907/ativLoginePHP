@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+ 
+}
+    
+body {
+    background-image: url(img/Design\ sem\ nome.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.borda{
+        background-color: rgba(255, 230, 210, 0.477); /* Fundo claro para destacar o formulário */
+        color: black;
+        padding: 20px;
+        border-radius: 10px; /* Bordas arredondadas */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para profundidade */
+        display: inline; /* Corrigido para usar 'flex' */
+        align-items: ;
+        align-items: center; /* Centraliza os itens horizontalmente */
+    }
+    
+        .enviar{
+            margin: 30px 20px; /* Margens para espaçamento adequado */
+            text-align: center; /* Centraliza o texto */
+            background-color: rgb(184, 255, 179) ;
+            color: rgb(0, 50, 8);
+            font-size: 25px;
+            align-items: center;
+           
+        }
+
+      .p{
+        font-size: 30px;
+        color: brown;
+        font: bolder
+        
+      } 
